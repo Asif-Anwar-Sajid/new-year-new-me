@@ -4,6 +4,10 @@
     margin: 0px;
 }
 
+link {
+    text-decoration: none;
+}
+
 /* Banner Styles */
 .banner {
     background-image: url(../images/banner/banner3.png);
@@ -124,6 +128,7 @@
     background-image:
     linear-gradient(to bottom, rgba(59, 72, 145, 0.52), rgba(13, 78, 242, 0.73)),
     url("../images/watch.png");
+    margin-bottom: 130px;
 }
 
 .ads-full {
@@ -147,5 +152,79 @@
     padding: 20px 30px;
     border-radius: 5px;
     color:#005FAC;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background: #151414;
+    color:#FFFFFF;
+    width: 1600px;
+    
+}
+.footer {
+    display: flex;
+}
+.future {
+    padding-left: 230px;
+    padding-top: 130px;
+    padding-right: 885px;
+    padding-bottom: 130px;
+}
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.email {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.phone {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.subs-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+.subscribe {
+    margin-top: 130px;
+    margin-right: 230px;
+    /* margin-left: ; */
+}
+
+input[type="email"] {
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 30px;   
+    border: #FFFFFF;
+    border-radius: 2px;
+}
+
+.subs-button {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color:#005FAC;
+    color: white;
     text-align: center;
 }
