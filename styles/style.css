@@ -1,0 +1,151 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+
+/* Banner Styles */
+.banner {
+    background-image: url(../images/banner/banner3.png);
+    width: 1600px;
+    height: 808px;
+    margin: 0px 0px;
+}
+
+.banner-text {
+    text-align: right;
+    padding-top: 216px;
+    padding-left: 845px;
+    padding-right: 230px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.banner-button {
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    border: 0px;
+}
+
+/* Main Section Styles */
+
+/* Failures Styles */
+.failures {
+    display: flex;
+    gap: 87px;
+    padding-left: 206px;
+    padding-top: 131px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    width: 288px;
+    margin-top: 239px;
+    margin-bottom: 24px;
+    padding-right: 450px;
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+    margin-right: 322px;
+}
+
+.failure-units {
+    margin-bottom: 8px;
+}
+
+/* Plans Styles */
+.plans {
+    margin-top: 130px;
+    /* text-align: center; */
+}
+.plan-title {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+}
+
+.all-plans {
+    display: flex;
+    text-align: center;
+    padding-left: 155px;
+    gap: 25px;
+}
+
+.each-plan {
+    text-align: center;
+    width: 400px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 24px;
+    margin-bottom: 50px;
+    color: #151414;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* Ads styles */
+.ads {
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-right: 230px;
+    width: 1140px;
+    height: 300px;
+    background-image:
+    linear-gradient(to bottom, rgba(59, 72, 145, 0.52), rgba(13, 78, 242, 0.73)),
+    url("../images/watch.png");
+}
+
+.ads-full {
+    padding-left: 64px;
+    padding-top: 59px;
+    padding-right: 750px;
+}
+
+.ads-one-liner {
+    
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.ads-button {
+    font-weight: 600;
+    font-size: 20px;
+    border: 0px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    color:#005FAC;
+    text-align: center;
+}
